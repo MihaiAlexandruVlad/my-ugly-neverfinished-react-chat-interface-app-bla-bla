@@ -1,0 +1,107 @@
+.img-responsive {
+	vertical-align: center;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.chat-app {	
+	height: 100vh;
+	background: whitesmoke;
+}
+
+.side-nav {
+	padding: 0;
+	/*background: #ffc107;*/
+	background: #20c997;
+	height: 100vh;
+	position: relative;
+	z-index: 999;
+	overflow: scroll;
+}
+
+.chat-window {
+	height: 100vh;
+	position: relative;
+	padding-top: 60px
+}
+
+.top-nav {
+	margin-left: -15px;
+	width: 100%;
+	background: #fff;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	-webkit-box-shadow: 0px 6px 42px -15px rgba(0,0,0,0.58);
+	-moz-box-shadow: 0px 6px 42px -15px rgba(0,0,0,0.58);
+	box-shadow: 0px 6px 42px -15px rgba(0,0,0,0.58);
+}
+
+.type-box {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 20px;
+	background: #fff;
+	-webkit-box-shadow: 0px -6px 42px -17px rgba(0,0,0,0.58);
+	-moz-box-shadow: 0px -6px 42px -17px rgba(0,0,0,0.58);
+	box-shadow: 0px -6px 42px -17px rgba(0,0,0,0.58);
+}
+
+.message-bubble-wrapper  {
+	padding-left: 40px;
+	position: relative;
+}
+
+.message-bubble-wrapper .image{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+
+.message-bubble-wrapper .image img {
+	width: 100%;
+	height: auto;
+}
+
+.message-bubble {
+	width: auto;
+	display: inline-block;
+	background: #ffc107;
+	color: #fff;
+	padding: 5px 15px;
+	font-size: 13px;
+	border-radius:50px;
+	margin-bottom: 12px;
+}
+
+	
+.person {
+	margin: 0 -15px;
+	padding: 10px 15px;
+	border-bottom: 1px solid rgba( 255,255,255, .3);
+}
+
+.person span {
+	position: relative;
+	top: -15px;
+	color: #fff;
+}
+
+
+.person .image-wrapper {
+	margin-right: 15px;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+}
